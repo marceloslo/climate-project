@@ -1,7 +1,7 @@
 import React from 'react';
 import Authors from '../components/authors.jsx';
 import { render } from 'react-dom';
-import { FaGithub, FaYoutube, FaFilePdf, FaXTwitter } from 'react-icons/fa6';
+import { FaGithub, FaYoutube, FaFilePdf, FaXTwitter, FaDatabase } from 'react-icons/fa6';
 import { FiGithub } from 'react-icons/fi';
 import { SiArxiv } from 'react-icons/si';
 import { Icon } from '@iconify/react';
@@ -30,6 +30,7 @@ class ResourceBtn extends React.Component {
       video: FaYoutube,
       huggingface: HuggingFace,
       demo: GoogleColab,
+	  zenodo: FaDatabase,
     };
     this.handleResize = this.handleResize.bind(this);
   }
