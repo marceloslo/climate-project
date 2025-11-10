@@ -1,7 +1,7 @@
 import React from 'react';
 import Authors from '../components/authors.jsx';
 import { render } from 'react-dom';
-import { FaGithub, FaYoutube, FaFilePdf } from 'react-icons/fa6';
+import { FaGithub, FaYoutube, FaFilePdf, FaXTwitter } from 'react-icons/fa6';
 import { FiGithub } from 'react-icons/fi';
 import { SiArxiv } from 'react-icons/si';
 import { Icon } from '@iconify/react';
@@ -22,7 +22,10 @@ class ResourceBtn extends React.Component {
     };
     this.icons = {
       paper: FaFilePdf,
+	  goodit: FaFilePdf,
+	  aaai: FaFilePdf,
       arxiv: SiArxiv,
+	  X: FaXTwitter,
       code: FaGithub,
       video: FaYoutube,
       huggingface: HuggingFace,
@@ -45,10 +48,11 @@ class ResourceBtn extends React.Component {
     const aClass = `uk-button uk-padding-remove ${this.props.rid === 0 ? 'uk-first-column' : 'uk-margin-medium-left@s uk-margin-small-left'}`;
     const sClass = 'uk-margin-small-left uk-margin-small-right uk-text-bold';
     const FaIcon = this.icons[this.props.title];
-    const iTitle =
-      this.props.title == 'huggingface' && this.state.isMobile
-        ? ' hf '
-        : this.props.title;
+
+	const iTitle =
+		this.props.title == 'huggingface' && this.state.isMobile
+		? ' hf '
+		: this.props.title;
     return (
       <>
         <a className={aClass} href={this.props.url} target="_blank">
