@@ -128,7 +128,7 @@ class Template extends React.Component {
           <SpeakerDeck dataId={data.speakerdeck} />
           <Body body={data.body} />
           <Citation bibtex={data.bibtex} />
-          <Projects projects={data.projects} />
+          {/*<Projects projects={data.projects} />*/}
         </div>
         <Footer />
       </div>
