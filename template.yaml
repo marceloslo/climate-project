@@ -4,11 +4,11 @@ twitter: '@denkivvakame'
 title: "Beyond Facts: How We Are Engaging with Climate Change Discussions for COP30"
 #journal: "AAAI'26"
 resources:
-  aaai: Climate_Change_AAAI.pdf
-  goodit: Climate_Change_Goodit.pdf
-  arxiv: https://arxiv.org
-  X: https://arxiv.org
-  zenodo: https://zenodo.org/records/17551956
+  arxiv: https://arxiv.org/abs/2511.06091
+  #aaai: Climate_Change_AAAI.pdf
+  #goodit: Climate_Change_Goodit.pdf
+  #X: https://arxiv.org
+  #zenodo: https://zenodo.org/records/17551956
   #code: https://github.com/denkiwakame/academic-project-template
   #video: https://www.youtube.com/embed/onbnb_D1wC8?si=xJczUv716Lt5aO4l&amp;start=1150
 description: academic projectpage template that supports markdown and KaTeX
@@ -27,11 +27,12 @@ authors:
     affiliation: [2]
     #url: https://thispersondoesnotexist.com/
   - name: Meeyoung Cha
-    affiliation: [1]
+    affiliation: [1, 3]
     #url: https://thispersondoesnotexist.com/
 affiliations:
   - Max Planck Institute for Security and Privacy
   - Universidade Federal de Minas Gerais
+  - Korean Advanced Institute of Science and Technology
 #meta:
 #  - '*work done while she was interning at Pixel Genius Lab.'
 bibtex: >
